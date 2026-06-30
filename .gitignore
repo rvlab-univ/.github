@@ -1,0 +1,16 @@
+datasets/
+runs/
+__pycache__/
+tools/X-AnyLabeling/
+*.pt
+*.onnx
+*.sh
+*.zip
+*.pth
+*.pth.*
+*.mp4
+
+# External tools and repositories
+tools/yolo11/
+tools/ultralytics/
+tools/Grounded-SAM-2/

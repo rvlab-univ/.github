@@ -1,0 +1,9 @@
+type: yolo11 # 학습하신 YOLO 버전에 맞춰 yolov5, yolov8, yolo11 등으로 입력
+name: my_custom_model
+display_name: My Best Model # 화면에 표시될 이름
+model_path: /home/lim/yolo_sam2/yolo_sam2_ws/data/best.onnx # 방금 생성한 ONNX 파일의 "절대 경로"
+classes:
+  - person
+  - car
+  - bicycle
+  # (주의) 반드시 본인이 학습시켰던 클래스 이름들을 순서대로 적어주셔야 합니다.
